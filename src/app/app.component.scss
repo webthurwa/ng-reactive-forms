@@ -1,0 +1,25 @@
+ .container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 5px;
+    grid-template-areas: 
+        's a'
+        's b'
+        's c';
+}
+
+.aside {
+    grid-area: s;
+}
+
+.row-1 {
+    grid-area: a;
+}
+
+.row-2 {
+    grid-area: b;
+}
+
+.row-3 {
+    grid-area: c;
+}

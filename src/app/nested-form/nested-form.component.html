@@ -1,0 +1,29 @@
+<form [formGroup]="myForm">
+    <mat-form-field class="full">
+        <input matInput placeholder="email" formControlName="email">
+    </mat-form-field>
+    <h5>Home Phone</h5>
+    <div formGroupName="homePhone">
+        <mat-form-field class="xs">
+            <input matInput placeholder="area" formControlName="area">
+        </mat-form-field>
+        <mat-form-field class="xs">
+            <input matInput placeholder="prefix" formControlName="prefix">
+        </mat-form-field>
+        <mat-form-field class="xs">
+            <input matInput placeholder="line" formControlName="line">
+        </mat-form-field>
+    </div>
+    <h5>Work Phone</h5>
+    <div formGroupName="homePhone">
+        <mat-form-field class="xs">
+            <input matInput placeholder="area" formControlName="area">
+        </mat-form-field>
+        <mat-form-field class="xs">
+            <input matInput placeholder="prefix" formControlName="prefix">
+        </mat-form-field>
+        <mat-form-field class="xs">
+            <input matInput placeholder="line" formControlName="line">
+        </mat-form-field>
+    </div>
+</form>
