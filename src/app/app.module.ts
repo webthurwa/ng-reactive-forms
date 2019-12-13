@@ -11,13 +11,15 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatButtonModule } from '@angular/material/button';
 import { NestedFormComponent } from './nested-form/nested-form.component';
 import { DynamicFormComponent } from './dynamic-form/dynamic-form.component';
+import { ValidatedFormComponent } from './validated-form/validated-form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BasicFormComponent,
     NestedFormComponent,
-    DynamicFormComponent
+    DynamicFormComponent,
+    ValidatedFormComponent
   ],
   imports: [
     BrowserModule,

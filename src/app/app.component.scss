@@ -5,7 +5,9 @@
     grid-template-areas: 
         's a'
         's b'
-        's c';
+        's c'
+        's d'
+        'e e';
 }
 
 .aside {
@@ -22,4 +24,8 @@
 
 .row-3 {
     grid-area: c;
+}
+
+.row-4 {
+    grid-area: d;
 }
